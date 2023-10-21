@@ -1,0 +1,129 @@
+
+* {
+    font-family: Arial;
+}
+
+header img {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    color: #775548;
+    
+}
+
+.nav h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family:  Verdana;
+}
+
+.nav ul {
+    padding-inline-start: 0%;
+}
+
+.nav nav a{
+    margin: 5px;
+    margin-right: 0;
+    color: #EC6C24;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    
+}
+
+.ins {
+    width: auto;
+}
+
+.ins h2 {
+    background-color: #775548;
+    color: #E0D5D3;
+}
+
+.ins ul li {
+    color: #775548;
+}
+
+.alq {
+    width: auto;
+}
+
+.alq h2 {
+    background-color: #775548;
+    color: #E0D5D3;
+}
+
+.alq p {
+    color: #775548;
+}
+
+.alq ul li {
+    color: #775548; 
+    margin: 3px;
+}
+
+.alq a{
+    text-decoration: none;
+    color: #EC6C24;
+
+}
+
+.notas {
+    width: auto;
+}
+
+
+.notas h2 {
+    background-color: #775548;
+    color: #E0D5D3;
+}
+
+.notas p {
+    color: #775548;
+}
+
+.notas ul li .nacion {
+    color: #52B5D0;
+    font-weight: 700;
+}
+
+.notas ul li .nacion:hover {
+    color: #60d2f1;
+    font-weight: 700;
+}
+
+.notas ul li .pagina {
+    color: #E83E44;
+    font-weight: 700;
+}
+
+.notas ul li .pagina:hover {
+    color: #f75156;
+    font-weight: 700;
+}
+
+.elegirnos {
+    width: auto;
+}
+
+.elegirnos h2 {
+    background-color: #775548;
+    color: #CFA738;
+}
+
+.elegirnos ol li {
+    color: #775548;
+}
+
+
+.elegirnos ol li a{
+    color: #EC6C24;
+}
+
+
+
+
+
+
