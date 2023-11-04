@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    background-color: #E11364;
+}
+
+header {
+    background: #BC105C;
+    width: 70%;
+    margin: auto;
+    margin-top: 7vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+
+header h1 {
+    padding: 15px;
+    font-size: 7vh;
+}
+
+
+
+.all-container {
+    background: #BC105C;
+    width: 70%;
+    margin: auto;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.vendidos {
+    padding: 18px 0;
+    width: 97%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendidos h2 {
+    margin-top: 10px;
+}
+
+.game-card {
+    background: #fff;
+    margin: auto;
+    margin-top: 2vh;
+    width: 97%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.game-card .titulo {
+    height: 10vh;
+}
+
+.game-card .titulo h3{
+    color: #94002C;
+    float: right;
+    margin-top: 4vh;
+    margin-right: 10px;
+}
+
+.linea-punteada {
+    border: none;
+    border-top: 3px dotted #990037; 
+    width: 98%; 
+    margin: 20px auto; 
+  }
+
+
+.game-card img {
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+.game-card .text-container {
+    width: 98%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.game-card .text-container p{
+    font-size: small;
+}
+
+.btn {
+    width: 97%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-card .btn button {
+    background: #2C8F20;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.game-card .btn a {
+    text-decoration: none;
+}
+
+.game-card .btn button:hover{
+    background: #e96093;
+}
+
+footer {
+    width: 70%;
+    background: #E96093;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+
+/* PAGINAS ANEXAS MARIO KART */
+
+.game-cointeiner {
+    background: #fff;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.all-container .image-container img{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+    padding: 20px;
+}
+
+.titulo-juego {
+    text-align: center;
+}
+
+.info-juego{
+    text-align: center;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.reseña {
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.puntuacion{
+    width: 20%;
+    border: 1px solid #000;
+    color: #fff;
+    justify-content: baseline;
+    align-items: center;
+    background: #2C8F20;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 32px;
+}
+
+.reseña p{
+    color: #292626;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.btn button {
+    background: #234e9e;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn button:hover{
+    background: #e96093;
+}
+
+@media (max-width: 932px) {
+    .puntuacion {
+        font-size: 20px;
+        width: 40%;
+    }
+}   
+
+    
