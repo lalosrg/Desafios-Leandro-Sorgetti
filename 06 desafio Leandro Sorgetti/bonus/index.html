@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Desafío Bonus 6 - Integrantes: Leandro Sorgetti y Nicolás Bobb
+    </title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <h1>Ejercicio BONUS</h1>
+    <p class="integrantes">Integrantes: Leandro Sorgetti y Nicolás Bobb</p>
+    <section>
+      <!-- Formulario para el primer integrante -->
+      <form id="formIntegrante1">
+        <h2>Primer integrante</h2>
+        <label for="nombre1">Primer nombre</label>
+        <input type="text" id="nombre1" name="nombre" value="Ana" required />
+        <label for="segundoNombre1">Segundo nombre</label>
+        <input
+          type="text"
+          id="segundoNombre1"
+          name="segundoNombre"
+          value="Laura"
+        />
+        <label for="apellido1">Primer apellido</label>
+        <input
+          type="text"
+          id="apellido1"
+          name="apellido"
+          value="García"
+          required
+        />
+        <label for="segundoApellido1">Segundo apellido</label>
+        <input
+          type="text"
+          id="segundoApellido1"
+          name="segundoApellido"
+          value="Perez"
+        />
+      </form>
+
+      <!-- Formulario para el segundo integrante -->
+      <form id="formIntegrante2">
+        <h2>Segundo integrante</h2>
+        <label for="nombre2">Primer nombre</label>
+        <input type="text" id="nombre2" required value="Laura" name="nombre" />
+        <label for="segundoNombre2">Segundo nombre</label>
+        <input type="text" id="segundoNombre2" name="segundoNombre" />
+        <label for="apellido2">Primer apellido</label>
+        <input
+          type="text"
+          id="apellido2"
+          name="apellido"
+          required
+          value="Gutiérrez"
+        />
+        <label for="segundoApellido2">Segundo apellido</label>
+        <input
+          type="text"
+          id="segundoApellido2"
+          name="segundoApellido"
+          value="García"
+        />
+      </form>
+    </section>
+    <button onclick="EventoClickFormulario()">Completar</button>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

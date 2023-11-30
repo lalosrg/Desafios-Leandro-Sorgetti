@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  border: 2px solid #333;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+section {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  margin: 15px 0;
+}
+
+.integrantes {
+  text-align: center;
+  margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
