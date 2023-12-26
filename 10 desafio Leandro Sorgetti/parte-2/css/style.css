@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #b1ccd8; /* Old browsers */
+    background: -moz-linear-gradient(top,  hsla(198,33%,77%,1) 0%, hsla(198,33%,77%,1) 86%, hsla(199,50%,24%,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  hsla(198,33%,77%,1) 0%,hsla(198,33%,77%,1) 86%,hsla(199,50%,24%,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  hsla(198,33%,77%,1) 0%,hsla(198,33%,77%,1) 86%,hsla(199,50%,24%,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-attachment: fixed;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1ccd8', endColorstr='#92a8b2',GradientType=0 ); /* IE6-9 */
+    height: 100%;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: hsl(199 18% 30% / 1);
+    background-image: url('img/hojas.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% + 10px) calc(100% - 20px);
+    padding-bottom: 200px;
+    height: 100%;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+header {
+    background-color: #455a64;
+    color: #fff;
+    padding: 40px;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    background-size: 50px auto;
+    box-shadow: inset 0px 5px 5px hsl(0 0% 0% / .2),
+                inset 0px 0px 15px hsl(0 0% 0% / .1),
+                0px 2px 2px hsl(0 0% 100% / .5);
+}
+
+header > div {
+    font-size: 2em;
+    margin-left: 60px;
+    color: hsl(199 18% 91% / 1);
+    text-shadow: 3px 3px 1px hsl(0 0% 0% / .2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 10px;
+}
+
+header > div > .happy {
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+#libros > h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: hsl(199 18% 15% / 1);
+}
+
+#libros > h1::before,
+#libros > h1::after {
+    content: "\25C3";
+    font-size: 70%;
+    margin-right: 10px;
+    color: hsl(199 18% 35% / 1);
+}
+#libros > h1::before {
+    content: "\25B9";
+}
+
+#libros > article {
+    /* border: 1px solid #949494; */
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    box-shadow:
+        5px 5px 5px hsla(0, 0%, 0%, 0.12),
+        1px 1px 3px hsla(0, 0%, 0%, 0.3),
+        5px 5px 25px 5px hsla(0, 0%, 0%, 0.2);
+    position: relative;
+    overflow: hidden;
+    max-height: 250px;
+    transition: .8s all;
+}
+
+#libros > article:hover {
+    max-height: 2000px;
+}
+
+#libros > article > h2 {
+    font-size: 25px;
+    font-variant: small-caps;
+}
+
+#libros > article > h2::before {
+    content: ":: ";
+}
+
+#libros > article > h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#libros > article > h3 .de {
+    margin-left: 26px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#libros > article > .informacion {
+    margin-bottom: 10px 0 30px;
+}
+
+
+#libros > article > .informacion > p > span:first-child {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    width: 65px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 5px;
+}
+
+#libros > article > .informacion > a {
+    float: left;
+    width: 58px;
+    margin: 0 10px 5px 26px;
+    display: inline-block;
+}
+
+#libros > article > .informacion > a img {
+    width: 58px;
+}
+
+#libros > article > .sinopsis {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 18px;
+    cursor: default;
+}
+
+#libros > article > .sinopsis > p::first-letter {
+    font-size: 70px;
+    float: left;
+    font-style: italic;
+    margin: -8px 15px 0 0;
+}
+
+#libros > article > .gradiente-blanco {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    width: 100%;
+    height: 70px;
+    z-index: 5;
+    transition: .8s all;
+    opacity: 1;
+}
+
+#libros > article:hover > .gradiente-blanco {
+    opacity: 0;
+}
