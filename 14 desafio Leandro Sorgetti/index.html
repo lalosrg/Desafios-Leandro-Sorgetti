@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <form class="form">
+        <div class="form__field">
+            <label for="first-name" class="form__label">Primer nombre:</label>
+            <input type="text" id="first-name" class="form__input" placeholder="Ingrese su primer nombre" required>
+        </div>
+
+        <div class="form__field">
+            <label for="last-name" class="form__label">Primer apellido:</label>
+            <input type="text" id="last-name" class="form__input" placeholder="Ingrese su primer apellido" required>
+        </div>
+
+        <div class="form__field">
+            <label for="document-type" class="form__label">Tipo de documento</label>
+            <div class="form__radio-group">
+                <input type="radio" id="dni" name="document-type" class="form__radio" value="DNI">
+                <label for="dni" class="form__radio-label">DNI</label>
+                <input type="radio" id="cuil" name="document-type" class="form__radio" value="CUIL">
+                <label for="cuil" class="form__radio-label">CUIL</label>
+            </div>
+        </div>
+
+        <div class="form__field">
+            <label for="document-number" class="form__label">Número de documento</label>
+            <input type="text" id="document-number" class="form__input" placeholder="Ingrese su número de documento" required>
+        </div>
+
+        <div class="form__field">
+            <label for="address" class="form__label">Dirección:</label>
+            <textarea id="address" class="form__textarea" placeholder="Ingrese su dirección" required></textarea>
+        </div>
+
+        <button type="submit" class="form__button">Enviar</button>
+    </form>
+</body>
+</html>
