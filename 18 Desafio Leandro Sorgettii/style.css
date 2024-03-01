@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: #fff;
+}
+
+nav {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+input[type="text"], select, input[type="number"], button {
+    margin: 10px;
+    padding: 8px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+}
+
+input[type="text"], select, input[type="number"] {
+    width: 200px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #00aaff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0077cc;
+}
+
+main {
+    padding: 20px;
+}
+
+div {
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+form {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    input[type="text"], select, input[type="number"], button {
+        width: 100%;
+    }
+}
